@@ -12,6 +12,8 @@ ENV AUTHOR="KLKREDDY"\
 #RUN rm -rf /usr/share/nginx/html/index.htm
 #COPY qi /usr/share/nginx/html
 #EXPOSE 8081
-RUN adduser nginx
-USER nginx
-RUN touch /tmp/hello.txt
+#RUN adduser nginx
+#USER nginx
+#RUN touch /tmp/hello.txt
+WORKDIR /tmp
+RUN touch hello.txt
