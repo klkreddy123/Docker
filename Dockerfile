@@ -1,5 +1,5 @@
 FROM almalinux
-LABEL AUTHOR="KLKREDDY"\
+ENV AUTHOR="KLKREDDY"\
       COURSE="DOCKER"\
       DURATION="25 HRS"
 #RUN yum install nginx -y
