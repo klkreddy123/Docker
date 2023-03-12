@@ -1,5 +1,5 @@
 ARG VERSION
-FROM almalinux:${VERSION}
+FROM almalinux:${VERSION:-8}
 #ADD https://github.com/trussworks/terraform-aws-config/blob/main/main.tf /tmp/
 #ADD apache-tomact-9.0.73-embed.tar.gz /tmp/
 ENV AUTHOR="KLKREDDY"\
