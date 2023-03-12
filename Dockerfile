@@ -4,4 +4,4 @@ LABEL AUTHOR="KLKREDDY"\
       DURATION="25 HRS"
 #RUN yum install nginx -y
 #CMD["nginx", "-g", "daemon off;"]
-#EXPOSE 8081
+EXPOSE 8081
