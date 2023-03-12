@@ -1,4 +1,5 @@
-FROM almalinux
+ARG VERSION
+FROM almalinux:${VERSION}
 #ADD https://github.com/trussworks/terraform-aws-config/blob/main/main.tf /tmp/
 #ADD apache-tomact-9.0.73-embed.tar.gz /tmp/
 ENV AUTHOR="KLKREDDY"\
@@ -15,5 +16,5 @@ ENV AUTHOR="KLKREDDY"\
 #RUN adduser nginx
 #USER nginx
 #RUN touch /tmp/hello.txt
-WORKDIR /tmp
-RUN touch hello.txt
+#WORKDIR /tmp
+#RUN touch hello.txt
