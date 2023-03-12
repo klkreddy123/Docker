@@ -1,5 +1,4 @@
-ARG VERSION
-FROM almalinux:{VERSION:-8}
+FROM almalinux
 LABEL AUTHOR="KLKREDDY"\
       COURSE="DOCKER"\
       DURATION="25 HRS"
